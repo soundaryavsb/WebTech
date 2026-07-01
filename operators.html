@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //! Arthematic operator
+        let a=100
+        let b=60
+        console.log(a+b)
+        console.log(a-b)
+        console.log(a*b)
+        console.log(a/b)
+        console.log(a%b)
+
+        a=3
+        b=2
+        console.log(a*b)
+        console.log(a**b)
+        // Comparison/Relational Operator
+        let m=80
+        let n=40
+
+        console.log(m>n)
+        console.log(n<m)
+        console.log(m>=n)
+        console.log(m<=n)
+        console.log(m!=n)
+        console.log(m==n)
+
+        //Logical operator
+        //AND
+        let c=200
+        let d=80
+        let u=c<d
+        let v=c==d
+
+        console.log(c>d&&d>c); 
+        console.log(v&&u)
+        console.log(d<c&&c>d)
+        console.log(c<d&&d<c) 
+
+        //OR
+        c=200 
+        d=80
+        console.log(c>d || d<c)
+        console.log(d>c || c>d)
+        console.log(c==d || c<=d)
+        console.log(c<d || d>c)
+        //NOT
+        c=200
+        d=80
+        console.log(d<c && c>d)
+        console.log(!(d<c) && c>d)
+        console.log(c<d || d>c)
+        console.log(c<d || !(d>c))
+
+        //Assignment Operator
+        let p=30
+        let q=15
+        console.log(p=p+q)
+        console.log(p+=q)
+        console.log(p=p-q)
+        console.log(p-=q)
+        console.log(p=p*q)
+        console.log(p*=q)
+
+        //Ternary Operator
+        let x=300
+        let y=200
+        
+        let big=(x>y)?x:y
+        console.log(big)
+        let small=(x<y)?x:y
+        console.log(small)
+        
+    </script>
+</body>
+</html>
