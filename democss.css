@@ -1,0 +1,30 @@
+/*Universal selector*/
+*{
+    background-image: url(./AI_Girl.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-size: cover, contain, auto*/
+}
+/*Tagname Selector*/
+h2{
+    background-color: black;
+    color: aqua;
+}
+h3{
+    background-color: black;
+    color: aqua;
+}
+/* ID selector: id + external css*/
+#hii3{
+    background-color: yellowgreen;
+    color: blue;
+}
+/* Class Selector: css + external css*/
+.fruit{
+    background-color: red;
+    color: green;
+}
+/*Grouping selector*/
+h2,#hii2,.fruit{
+    font-size: 50px;
+}

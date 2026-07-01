@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // AND (&&)
+        let p=200;
+        let q=100;
+        console.log(p>q&&p<q)
+        console.log(q<p&&p!=q)
+        console.log(p>q&&q>p)
+        console.log(q<p&&p<q)
+
+        //OR(||)
+        p=200;
+        q=100;
+        let s=p>q
+        let t=q<p
+        console.log(s||t)
+        console.log(p>q||q>p)
+        console.log(p==q||p<q)
+        console.log(p<q||p>q)
+
+        //NOT (!)
+        p=200
+        q=100
+        console.log(p>q&&p<q)
+        console.log(p>q&&!(p<q))
+        console.log(p==q||p<q)
+        console.log(!(p==q)||p<q)
+
+        //Assignment Operator
+        let u=50
+        let v=20
+
+        console.log(u=u+v)
+        console.log(u+=v)
+        console.log(u=u-v)
+        console.log(u-=v)
+        console.log(u=u*v)
+        console.log(u*=v)
+
+        //Ternary operator
+        //Syntax:Condition?val1:val2
+        let x=300
+        let y=200
+
+        let Big=(x>y)?x:y
+        console.log(Big)
+        
+        let Small=(x<y)?x:y
+        console.log(Small)
+    </script>
+
+
+</body>
+</html>

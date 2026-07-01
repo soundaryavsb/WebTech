@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Basic CSS</title>
+
+    <!-- 2. internal CSS : Second perference or Third preference-->
+        <!-- Third preference: when mention the link above the external link Style -->
+    <style>
+        /* h1{
+            background-color: yellowgreen; 
+            color: blueviolet;
+        } */
+        h2{
+            background-color: blue;
+            color: brown;
+            font-size: 70px;
+        }
+        #hii1{
+            background-color: aqua;
+            color: blue;
+        }
+        #hii2{
+            background-color: aliceblue;
+            color: brown;
+        }
+        .fruit{
+            background-color: green;
+            color: yellow;
+        }
+    </style>
+    <!-- 3. External CSS: Second preference or Third preference -->
+        <!--  Third preference: when mention the link above the internal Style -->
+     <link rel="stylesheet" href="./democss.css">
+
+</head>
+<body>
+    <!-- id + internal CSS -->
+    <h1 id="hii1">Hii</h1>
+    <h1 id="hii2">Hii ID H1</h1>
+    <h1 id="hii3">Hii</h1>
+    
+    <ol>
+        <li class="fruit">Mango CLASS FRUIT</li>
+        <li class="fruit">berry CLASS FRUIT</li>
+        <li >orange</li>
+    </ol>
+
+    <!-- 1. inline CSS : note: first preference -->
+        <!-- background color, color: letter color -->
+    <h1 style="background-color: red; color: orange;">hello</h1>
+        <!-- font-size: letter Size -->
+    <h1 style="background-color: greenyellow; color: blue; font-size: 20px;">hello</h1>
+    <h1>hello</h1>
+    <h1>hello</h1>
+    <h1>hello</h1>
+
+    <h2 style="font-size: 30px;">Hello TAG H2</h2>
+    <h2 style="background-color: blueviolet; color: aliceblue;">Hello TAG H2</h2>
+    <h2>Hello TAG H2</h2>
+
+    <h3>Welcome</h3>
+    <script src="./functions.js">
+
+    </script>
+    
+</body>
+</html>

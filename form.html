@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <h2>Form and attributes</h2>
+    <form>
+        <!-- Text box -->
+         <!-- autofocus -->
+        <label for="user">User Name</label>
+        <br>
+        <input type="text" id="user" autofocus>
+        <br><br>
+        
+        <!-- Password box -->
+         <!-- Pattern -->
+        <label for="pass">Password</label>
+        <br>
+        <input type="password" name="" id="pass" pattern="[A-Za-z0-9*@#$!]{8}">
+        <br><br>
+
+        <!-- Email Box -->
+         <!-- Required -->
+          <!-- label -- Placeholder -->
+        <label for="">Email ID</label>
+        <br>
+        <input type="email" required placeholder="email">
+        <br><br>
+
+        <!-- Mobile Number box -->
+         <!-- disabled the text Box -->
+        <label for="">Mobile No.</label>
+        <br>
+        <input type="tel" disabled>
+        <br><br>
+
+        <!-- Radio button -->
+        <label>Gender</label>
+        <br>
+        <input type="radio" name="gen">Female
+        <input type="radio" name="gen">Male
+        <br><br>
+
+        <!-- Check Box -->
+        <label>Subject</label>
+        <br>
+        <input type="checkbox" name="sub" value="SQL">SQL
+        <input type="checkbox" name="sub" value="JavaScript">JavaScript
+        <input type="checkbox" name="sub" value="TypeScript">TypeScript
+        <input type="checkbox" name="sub" value="PlayWright">PlayWright
+        <br><br>
+
+        <!-- Drop Down -->
+        <label>Job</label>
+        <br>
+        <select name="" id="">
+            <option></option>
+            <option value="Tester">Tester</option>
+            <option value="Developer">Developer</option>
+        </select>
+        <br><br>
+
+        <!-- Address -->
+        <label>Address</label>
+        <br>
+        <textarea name="" id="" cols="40" rows="5"></textarea>
+        <br><br>
+        
+        <!-- ReadOnly Text Box -->
+        <input type="text" name="" id="" value="I am form" readonly>
+        <br><br>
+
+        <!-- Submit Botton -->
+        <button>Submit</button>
+    </form>
+</body>
+</html>
