@@ -115,6 +115,53 @@ let s1=s.slice(1,6);
 console.log(s);
 console.log(s1);
 
+//HIGH ORDER METHODS-----------------
+// !map()
+//It used to transform each element of an array
+console.log("----High order methods----");
+
+let num=[2,3,4]
+console.log(num);
+let res=num.map(n=>n*2);
+console.log(res);
+
+let res1=num.map(n=>n**2);
+console.log(res1);
+
+let res2=num.map(n=>n-1);
+console.log(res2);
+
+let s2=[10,20,30,40,50]
+let res3=s2.map((value,index,array)=>{
+    console.log(`index ${index} and ${array[index]}`);
+    return value*3;
+})
+console.log(res3);
+
+// !filter()
+//It will select the array elements based on the condition
+console.log("------filter()-------");
+let n1=[10,23,0,45,21,34,56]
+console.log(n1);
+let res4=n1.filter(num1=>num1>20)
+console.log(res4);
+
+// !reduce()
+// It will reduce the array into single value
+console.log("-----reduce-------");
+let numbers=[2,3,4,5]
+console.log(numbers);
+
+let res5=numbers.reduce((total,num)=>{
+    return total+num
+})
+console.log(res5);
+
+let res6=numbers.reduce((total,num)=>{
+    return total+num
+},20)
+console.log(res6);
+
 
 
 
