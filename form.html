@@ -3,78 +3,69 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Form</title>
+    <title>Document</title>
 </head>
 <body>
-    <h2>Form and attributes</h2>
-    <form>
-        <!-- Text box -->
-         <!-- autofocus -->
-        <label for="user">User Name</label>
+    <h1>form creation</h1>
+    
+    <form action="">
+        <label for="user">USERNAME</label>
         <br>
-        <input type="text" id="user" autofocus>
-        <br><br>
-        
-        <!-- Password box -->
-         <!-- Pattern -->
-        <label for="pass">Password</label>
-        <br>
-        <input type="password" name="" id="pass" pattern="[A-Za-z0-9*@#$!]{8}">
-        <br><br>
+        <input type=" text" autofocus >
 
-        <!-- Email Box -->
-         <!-- Required -->
-          <!-- label -- Placeholder -->
-        <label for="">Email ID</label>
-        <br>
-        <input type="email" required placeholder="email">
         <br><br>
+        <label for="pass">PASSWORD</label>
+        <br>
+        <input type="password" id="pass" pattern="[A-Za-z0-9@$^&*]{8}">
+        <h6 style="color: red;">password should conatin 8 characters</h6>
 
-        <!-- Mobile Number box -->
-         <!-- disabled the text Box -->
-        <label for="">Mobile No.</label>
+        <br><br>
+        <label for="">EMAIL</label>
+        <br>
+        <input type="email" required placeholder="email" id="pass">
+
+        <br><br>
+        <label for="">MOBILE NO</label>
         <br>
         <input type="tel" disabled>
-        <br><br>
 
-        <!-- Radio button -->
-        <label>Gender</label>
+        <br><br>
+        <label for="">SELECT GENDER</label>
         <br>
-        <input type="radio" name="gen">Female
-        <input type="radio" name="gen">Male
-        <br><br>
+        <input type="radio" name="gender" id="">MALE 
+        <input type="radio" name="gender" id="">FEMALE
 
-        <!-- Check Box -->
-        <label>Subject</label>
+        <br><br>
+        <input type="text" value="hiiii" readonly>
+
+        <br><br>
+        <label for="">SELECT SUBJECT</label>
         <br>
-        <input type="checkbox" name="sub" value="SQL">SQL
-        <input type="checkbox" name="sub" value="JavaScript">JavaScript
-        <input type="checkbox" name="sub" value="TypeScript">TypeScript
-        <input type="checkbox" name="sub" value="PlayWright">PlayWright
-        <br><br>
+        <input type="checkbox" name="sub" id="" value="html">HTML
+        <input type="checkbox" name="sub" id="">CSS
+        <input type="checkbox" name="sub" id="">JS
+        <input type="checkbox" name="sub" id="">TS
+        <input type="checkbox" name="sub" id="">PLAYWRIGHT
 
-        <!-- Drop Down -->
-        <label>Job</label>
+
+        <br><br>
+        <label for="">SELECT DEPARTMENT</label>
         <br>
         <select name="" id="">
-            <option></option>
-            <option value="Tester">Tester</option>
-            <option value="Developer">Developer</option>
+            <option value=""></option>
+            <option value="testing">TESTING</option>
+            <option value="develop">DEVELOPMENT</option>
         </select>
-        <br><br>
 
-        <!-- Address -->
-        <label>Address</label>
+        <br><br>
+        <label for="">ADDRESS</label>
         <br>
-        <textarea name="" id="" cols="40" rows="5"></textarea>
-        <br><br>
-        
-        <!-- ReadOnly Text Box -->
-        <input type="text" name="" id="" value="I am form" readonly>
-        <br><br>
+        <textarea name="" id="" cols="40" rows="6"></textarea>
 
-        <!-- Submit Botton -->
-        <button>Submit</button>
+        <br><br>
+        <button type="submit">SUBMIT</button>
+
     </form>
+
 </body>
 </html>
